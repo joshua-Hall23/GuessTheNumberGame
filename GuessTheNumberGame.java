@@ -19,9 +19,9 @@ public class GuessTheNumberGame
             int UserGuess = -1;
             int count = 0;
 
-            while (GuessNumber != UserGuess && count < 4)
+            while (GuessNumber != UserGuess && count < 6)
             {
-                System.out.print("\nEnter Guess(0-10): ");
+                System.out.print("\nEnter Guess(0-100): ");
                 UserGuess = keyboard.nextInt();
                 count++;
 
