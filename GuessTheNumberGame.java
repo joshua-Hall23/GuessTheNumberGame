@@ -15,7 +15,7 @@ public class GuessTheNumberGame
 
         while (PlayAgain == 1)
         {
-            int GuessNumber = random.nextInt(11);
+            int GuessNumber = random.nextInt(101);
             int UserGuess = -1;
             int count = 0;
 
